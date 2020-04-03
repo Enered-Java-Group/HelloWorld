@@ -30,6 +30,7 @@ Display on the screen the message: "This summer I will learn " + languages[resul
 
         int sumNumber = computeDigitSum(n);
 
+        System.out.println("another print line!");
         while(sumNumber > 9) {
             System.out.println(sumNumber);
             sumNumber = computeDigitSum(sumNumber);
